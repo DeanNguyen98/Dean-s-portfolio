@@ -1,5 +1,6 @@
 const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -30,6 +31,11 @@ module.exports = {
             title: 'Dean Portfolio',
             filename: 'index.html',
             template: 'src/template.html',
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: 'src/assets', to: 'assets' } // Copies assets from src/assets to dist/assets
+            ],
         }),
     ]
 }
