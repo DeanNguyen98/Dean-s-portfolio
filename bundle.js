@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navbar */ \"./src/navbar.js\");\n\n\n\n(0,_navbar__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://portfolio-dean/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navbar */ \"./src/navbar.js\");\n\n\n\n(0,_navbar__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//SCROLL REVEAL\n\nScrollReveal({\n    distance: '80%',\n    duration: 1000,\n    delay: 100,\n    easing: 'ease'\n})\n\nScrollReveal().reveal('.home-content', {origin: 'top'});\nScrollReveal().reveal('.home-img, .projects-container, .contact', {origin: 'bottom'});\nScrollReveal().reveal('.about-container, .learned', {origin:\"left\"});\nScrollReveal().reveal('.about-experience, .learning', {origin: \"right\"});\n\n//TYPED JS\n\nconst typed = new Typed(\".typed-text\", {\n    strings: [\" am a Junior Web Developer\", \"love to code\"],\n    typeSpeed: 50,\n    backSpeed: 50 ,\n    backDelay: 2000,\n    loop: true\n})\n\n//# sourceURL=webpack://portfolio-dean/./src/index.js?");
 
 /***/ }),
 
