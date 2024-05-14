@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <title>Dean Portfolio</title>
 <script defer src="bundle.js"></script></head>
 <body>
@@ -21,23 +22,26 @@
     </header>
     <!--HOME-->
     <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi, I'm</h3>
-            <h1>Dean Nguyen</h1>
-            <h3>And I'm a <span>Junior Web Developer.</span></h3>
-            <div class="social-media">
-                <a href="#">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-github"></i>
-                </a>
+        <div class="home-container">
+            <div class="home-content">
+                <h3>Hi, I'm</h3>
+                <h1>Dean Nguyen</h1>
+                <h3>And I'm a <span>Junior Web Developer.</span></h3>
+                <div class="social-media">
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="circle"></div>
             </div>
-            <div class="circle"></div>
+            <div class="home-img">
+                <img src="assets/profile.jpg" alt="Dean's profile picture">
+            </div>
         </div>
-        <div class="home-img">
-            <img src="assets/profile.jpg" alt="Dean's profile picture">
-        </div>
+        <a href="#about"><i class="fa-solid fa-angles-down arrow"></i></a>
     </section>
     <!--ABOUT-->
     <section class="about" id="about">
@@ -66,6 +70,7 @@
                 <h3>Udemy</h3>
             </div>
         </div>
+        <a href="#project"><i class="fa-solid fa-angles-down arrow"></i></a>
     </section>
     
     <!--PROJECT SECTION-->
@@ -114,11 +119,84 @@
                 </div>
             </div>
         </div>
+        <a href="#skills"><i class="fa-solid fa-angles-down arrow"></i></a>
     </section>
     <!--SKILLS SECTION-->
     <section class="skills" id="skills">
-
+        <h1>SKILLS</h1>
+        <div class="learned">
+            <h2> TECHNOLOGIES I'VE LEARNED</h2>
+        <div class="skills-container">
+            <div class="skills-box">                      
+            <i class="devicon-html5-plain-wordmark colored"></i>                   
+            </div>
+            <div class="skills-box">                             
+            <i class="devicon-css3-plain-wordmark colored"></i>        
+            </div>
+            <div class="skills-box">                          
+                <i class="devicon-javascript-plain colored"></i>                  
+            </div>
+            <div class="skills-box">                      
+            <i class="devicon-linux-plain colored"></i>         
+            </div>
+            <div class="skills-box">                          
+                <i class="devicon-sass-original colored"></i>         
+            </div>
+            <div class="skills-box">                                       
+            <i class="devicon-webpack-plain colored"></i>               
+            </div>
+            <div class="skills-box">                                                       
+            <i class="devicon-npm-original-wordmark colored"></i>                     
+            </div>
+            <div class="skills-box">                                                                      
+            <i class="devicon-eslint-plain-wordmark"></i>                          
+                </div>
+        </div>
+        </div>
+        <div class="learning">
+            <h2>TECHNOLOGIES I'M LEARNING</h2>
+        <div class="skills-container">
+            <div class="skills-box">                       
+                
+            <i class="devicon-react-original"></i>                    
+                </div>
+                <div class="skills-box">                                            
+            <i class="devicon-php-plain colored"></i>             
+                </div>
+                <div class="skills-box">                           
+                    
+            <i class="devicon-typescript-plain colored"></i>              
+                </div>
+                <div class="skills-box">                               
+            <i class="devicon-python-plain-wordmark colored"></i>         
+                </div>
+        </div>
+        </div>
+        <a href="#contact"><i class="fa-solid fa-angles-down arrow"></i></a>
     </section>
+    <section class="contact" id="contact">
+        <h2 class="contact-heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 DeanNguyen</p>
+        </div>
+        <div class="footer-arrow">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
     <script src="https://kit.fontawesome.com/7eca06f1bf.js" crossorigin="anonymous"></script>
 </body>
 </html>
